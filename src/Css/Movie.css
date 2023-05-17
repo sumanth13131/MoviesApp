@@ -1,0 +1,64 @@
+.movie{
+    padding: 2% 2% 0% 2%;
+    background-color: rgba(66, 64, 64, 0.3);
+    border-radius: 20px;
+    height: 1200px;
+}
+
+iframe {
+    width: 1300px;
+    height: 800px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#movie_details {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+#ry_r_c {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+#overview {
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#certificate {
+    width: 40px;
+    text-align: center;
+    background-color: rgba(197, 191, 191, 0.5);
+    border-radius: 3px;
+}
+
+#genres, #actors  {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+.genre, .actor {
+    padding-left: 15px;
+}
+
+.title button{
+    border: none;
+    background-color: rgb(233, 223, 27);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#my_rating {
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+

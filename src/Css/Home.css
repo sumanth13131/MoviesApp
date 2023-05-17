@@ -1,0 +1,70 @@
+#banner{
+    width: 99%;
+    height: 45px;
+    background-color: rgba(57, 55, 55, 0.5);
+    border-radius: 10px;
+    position: fixed;
+    top: 5px;
+}
+
+#home_cards{
+    padding-top: 40px;
+}
+
+#banner_container{
+    padding-top: 2px;
+    padding-left: 3px;
+    display: flex;
+    float: left;
+    /* flex-wrap: wrap; */
+}
+
+#search_button {
+    margin-left: 430%;
+}
+
+#search_button_button{
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: rgba(93, 89, 89, 0.4);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    float: left;
+    color: white;
+    font-family: inherit;
+    font-size: small;
+}
+.search_text{
+    margin-top: 5px;
+}
+.search_logo{
+    margin-left: 15%;
+    margin-top: 2px;
+}
+#logout_button{
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 10px;
+}
+
+#logout_button_logo{
+    display: flex;
+    float: right;
+}
+
+.pagination_button{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.pagination_icon{
+    margin-top: 8px;
+}
+

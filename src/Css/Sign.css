@@ -1,0 +1,62 @@
+.landing_page {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: inherit;
+}
+
+#landing_back_ground_image {
+    width: 100%;
+    height: 800px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.landing_page form{
+    position: absolute;
+    top: 100px;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.sign_input{
+    border: none;
+    background-color: rgb(89, 86, 86);
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: medium;
+    padding-left: 20px;
+    color: rgb(252, 252, 252);
+}
+
+.sign_button{
+    cursor: pointer;
+    background-color: rgb(221, 36, 36);
+    border: none;
+    border-radius: 3px;
+    width: 25%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.fields{
+    padding-top: 50px;
+}
+
+#signup {
+    color: rgb(57, 57, 216);
+}
+#signin{
+    color: rgb(57, 57, 216);
+} 

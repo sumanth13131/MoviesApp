@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { LandingPage } from "./Components/LandingPage";
+import { Signin } from "./Components/Signin";
+import { Signup } from "./Components/Signup";
+import { Home } from "./Components/Home";
+import { Movie } from "./Components/Movie";
+import Signout from "./Components/Signout";
+import Search from "./Components/Search";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<LandingPage />}></Route>
+                <Route exact path="/signin" element={<Signin />}></Route>
+                <Route exact path="/signup" element={<Signup />}></Route>
+                <Route exact path="/signout" element={<Signout />}></Route>
+                <Route exact path="/home" element={<Home />}></Route>
+                <Route exact path="/movie/:id" element={<Movie />}></Route>
+                <Route exact path="/search" element={<Search />}></Route>
+            </Routes>
+        </Router>
+    );
 }
-
-export default App;
