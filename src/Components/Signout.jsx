@@ -11,11 +11,13 @@ export default function Signout() {
         setSignOut(true);
         localStorage.setItem("isAuth", "no");
     })
-    .catch(err => console.log(err))
+    .catch(err => {
+        setSignOut(true);
+        console.log(err);
+    })
 
     return (
         <>  
-            {/* {localStorage.getItem("isAuth") === "no" && (<Navigate to={"/signin"} replace={true}></Navigate>)} */}
             {signOut && <Navigate to={"/signin"}></Navigate>}
         </>
     )
